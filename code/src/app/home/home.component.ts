@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './home.component.html'
 })
 export class HomeComponent implements OnInit {
-  private offerIteams: any = [{
+  public offerIteams: any = [{
     "title": "Daily Horoscope",
     "src": "../../assets/images/offer-2.jpg"
   }, {
